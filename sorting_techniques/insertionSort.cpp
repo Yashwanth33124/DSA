@@ -10,6 +10,7 @@ void insertion_sort(int arr[] , int n) {
             arr[j - 1] = temp;
             j--;
         }
+
     }
 }
 int main() {
@@ -24,3 +25,6 @@ int main() {
         cout << arr[i] << " ";
     }
 }
+
+
+
